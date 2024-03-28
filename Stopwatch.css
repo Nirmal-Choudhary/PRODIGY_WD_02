@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color:lightblue;
+}
+
+
+.container {
+  margin-top: 60px;
+  
+}
+.task{
+  color: rgb(15, 15, 110);
+  font-size: 2rem;
+  
+}
+#display{
+  margin-top: 60px;
+  font-size: 2rem;
+
+}
+.buttons {
+  margin-top: 40px;
+}
+button{
+  
+  padding: 10px 20px;
+  border-radius: 20px;
+  
+  /* border: none; */
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 1rem;
+}
+.start{
+background-color: rgb(57, 117, 255);
+
+}
+.stop{
+  background-color: rgb(255, 0, 102);
+}
+ .pause{
+  background-color: rgb(222, 255, 75);
+}
+ .interval{
+  background-color: rgb(7, 255, 102);
+}
+
+.start:hover{
+  background-color: rgb(36, 100, 250);
+  
+  }
+  .stop:hover{
+    background-color: rgb(255, 0, 25);
+  }
+   .pause:hover{
+    background-color: rgb(218, 248, 23);
+  }
+   .interval:hover{
+    background-color: rgb(7, 255, 32);
+  }
+
+#recordedTimes{
+  margin-top: 50px;
+  color: blue;
+  font-size: 1.5rem;
+
+}
